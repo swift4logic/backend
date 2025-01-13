@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken'); // Import jsonwebtoken
 const { loginUserByEmail, CheckinUser, addNewSales, GetSales, GetTodaySales, getMonthlySales, getFbIDS, getSellerNameById, getFacebookIds, setSaleStatusBySaleId, getTopSalesMan, getTodaySales, getCheckTime, AddCheckoutTime } = require("../../services/user/UserService");
 const { generateOTP } = require('../../Middleware/OtpGenerator');
 const path = require('path');
-const { checkout } = require('../../routes/user/UserRoutes');
+// const { checkout } = require('../../routes/user/UserRoutes');
 
 module.exports = {
   login: async (req, res) => {

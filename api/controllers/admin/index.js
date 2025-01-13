@@ -1,4 +1,4 @@
-const { CheckEmailInUse, createUser, CreateRole, checkUsername, getAlluser, getAllUsers, getAllPendingSales, AssignFdIdToSeller, getFacebookIds, StoreFacebookIds, getTotalSales, getTodaysSales, getMonthlySales, getNewlyAddedSales, getUnAssignFaceBookeIds, getAssignFaceBookIds, getTotalSalesById, getTodaysSalesById, getMonthlySalesById, getNewlyAddedSalesById, getMonthlyCheckinsByUserId, getTodaysCheckinByUserId, setSaleStatusBySaleId, getPrize, getFbIdsActive, getFbIdsNoNActive, getTodaysCheckINTime} = require("../../services/admin/AdminServices");
+const { CheckEmailInUse, createUser, checkUsername, getAlluser, getAllUsers, getAllPendingSales, AssignFdIdToSeller, getFacebookIds, StoreFacebookIds, getTotalSales, getTodaysSales, getMonthlySales, getNewlyAddedSales, getUnAssignFaceBookeIds, getAssignFaceBookIds, getTotalSalesById, getTodaysSalesById, getMonthlySalesById, getNewlyAddedSalesById, getMonthlyCheckinsByUserId, getTodaysCheckinByUserId, setSaleStatusBySaleId, getPrize, getFbIdsActive, getFbIdsNoNActive, getTodaysCheckINTime, CreateRole} = require("../../services/admin/AdminServices");
 const bcrypt = require('bcrypt');
 
 module.exports = {
